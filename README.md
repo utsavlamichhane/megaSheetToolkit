@@ -36,8 +36,7 @@ Because the merge happens in R data frames—which have no practical column limi
 
 1. **Clone the repo**
    ```bash
-   git clone utsavlamichhane.com
-   cd <repo-name>
+   gh repo clone utsavlamichhane/megaSheetToolkit
 
 
 Install R dependencies (first time only)
