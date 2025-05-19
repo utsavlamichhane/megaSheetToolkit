@@ -17,12 +17,12 @@ Because the merge happens in R data frames—which have no practical column limi
 
 ## Repository Structure
 
-.
-├── input_data.xlsx
+ .
+ ├── input_data.xlsx
 
-├── process_excel.R
+ ├── process_excel.R
 
-└── README.md ← you are here
+ └── README.md ← you are here
 
 
 ## Prerequisites
@@ -36,7 +36,7 @@ Because the merge happens in R data frames—which have no practical column limi
 
 1. **Clone the repo**
    ```bash
-   gh repo clone utsavlamichhane/megaSheetToolkit
+   git clone https://github.com/utsavlamichhane/megaSheetToolkit.git
 
 
 Install R dependencies (first time only)
