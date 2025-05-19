@@ -38,10 +38,12 @@ Because the merge happens in R data frames—which have no practical column limi
    ```bash
    git clone utsavlamichhane.com
    cd <repo-name>
-  ```
+
 
 Install R dependencies (first time only)
 
+
 ```
 install.packages(c("readxl", "writexl", "tibble"))
+
 ```
