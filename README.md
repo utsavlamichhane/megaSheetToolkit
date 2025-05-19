@@ -17,12 +17,10 @@ Because the merge happens in R data frames—which have no practical column limi
 
 ## Repository Structure
 
- .
- ├── input_data.xlsx
-
-  ├── process_excel.R
-
-  └── README.md ← you are here
+ 
+├── input_data.xlsx
+├── process_excel.R
+└── README.md ← you are here
 
 
 ## Prerequisites
