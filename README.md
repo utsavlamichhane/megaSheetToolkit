@@ -1,3 +1,5 @@
+**We wrote this script because we cant work in excel if the column number ig greater than 16,384 **
+
 Working with **extremely wide** data—each sheet in `input_data.xlsx` has **15-k + columns**—quickly pushes past Excel’s own limit of 16,384 columns (column `XFD`).  That makes any manual copy-and-paste or workbook merge impossible.  This lightweight R workflow automates the entire process: it **splits** the multi-sheet workbook into individual files, **annotates** each with its sheet name, and then **merges** a user-selected subset into a single, column-aligned CSV—no spreadsheet software required.
 
 # Excel Sheet Processor
@@ -14,3 +16,30 @@ This repository contains:
 Because the merge happens in R data frames—which have no practical column limit for this size—you can safely combine sheets that Excel itself cannot open in a single view.
 
 ## Repository Structure
+
+.
+├── input_data.xlsx
+├── process_excel.R
+└── README.md ← you are here
+
+
+## Prerequisites
+
+| Software | Version (tested) | Notes |
+|----------|------------------|-------|
+| R        | ≥ 4.2            | Earlier versions likely work; 4.2+ recommended. |
+| Packages | `readxl`, `writexl`, `tibble` | Install with the command below. |
+
+## Quick-start
+
+1. **Clone the repo**
+   ```bash
+   git clone utsavlamichhane.com
+   cd <repo-name>
+  ```
+
+Install R dependencies (first time only)
+
+```
+install.packages(c("readxl", "writexl", "tibble"))
+```
