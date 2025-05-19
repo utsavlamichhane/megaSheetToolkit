@@ -1,6 +1,6 @@
 ## We wrote this script because we cant work in excel if the column number is bigger than 16,384 
 
-Working with **extremely wide** data—each sheet in `input_data.xlsx` has **15-k + columns**—quickly pushes past Excel’s own limit of 16,384 columns (column `XFD`).  That makes any manual copy-and-paste or workbook merge impossible.  This lightweight R workflow automates the entire process: it **splits** the multi-sheet workbook into individual files, **annotates** each with its sheet name, and then **merges** a user-selected subset into a single, column-aligned CSV—no spreadsheet software required.
+Working with **extremely wide** data—each sheet in `input_data.xlsx` has **15-k + columns**—quickly pushes past Excel’s own limit of 16,384 columns (column `XFD`).  That makes any manual workbook merge impossible.  This lightweight R workflow automates the entire process: it **splits** the multi-sheet workbook into individual files, **annotates** each with its sheet name, and then **merges** a user-selected subset into a single, column-aligned CSV—no spreadsheet software required.
 
 # Excel Sheet Processor
 
