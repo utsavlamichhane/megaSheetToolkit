@@ -4,6 +4,8 @@ library(writexl)
 library(tibble)   ###provides add_column()
 
 ####defining the input excel workbook
+#this is the same file provided to you in the drive
+
 input_file <- "input_data.xlsx"
 
 ####retrieving all sheet names
