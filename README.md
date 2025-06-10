@@ -46,3 +46,4 @@ Install R dependencies (first time only)
 install.packages(c("readxl", "writexl", "tibble"))
 
 ```
+Use the file from the drive, in your local system or server. 
